@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> list</title>
+
+    </head>
+    <body>
+        <!--************************** Ordered list ***************************-->
+        <ol>                    <!-- <ol> tag is used for creating list in ordered manner-->
+            <li>Milk</li>
+            <li>Tea</li>  <!-- <li> tag is used for items in list-->
+            <li>Coffee</li>
+        </ol>
+
+        <ol start="23">                    <!-- start attribute is used for starting the count of list in ordered manner-->
+            <li>Milk</li>
+            <li>Tea</li>  <!-- <li> tag is used for items in list-->
+            <li>Coffee</li>
+        </ol>
+
+        <ol type="1">                    <!-- type attribute is used for modify the count type of list in ordered manner-->
+            <li>Milk</li>              <!--for alphabet a,A for Roman i,I-->
+            <li>Tea</li>              <!-- <li> tag is used for items in list-->
+            <li>Coffee</li>
+        </ol>
+
+        <ol>                    <!-- here we created another list in ordered list-->
+            <li>Milk
+                <ol>
+                    <li>Buffalo</li>
+                    <li>Cow</li>
+                </ol>
+            </li>              <!--for alphabet a,A for Roman i,I-->
+            <li>Tea</li>              <!-- <li> tag is used for items in list-->
+            <li>Coffee</li>
+        </ol>
+
+<!--***************************** Unordered list **********************-->        
+
+    <ul>
+        <li>Milk</li>             
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <ul>
+        <li>Milk
+            <ul>
+                <li>Buffalo</li>
+                <li>Cow</li>
+            </ul>
+        </li>             
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+
+    <ul>
+        <li>Milk
+            <ul style="list-style-type: square"> <!-- style="list-style-type: square" this attribute is used for changing bullets like square circle disc etc-->
+                <li>Buffalo</li>
+                <li>Cow</li>
+            </ul>
+        </li>             
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+    </body>
+
+<!--********************* Description list ********************************-->
+    <dl>
+        <dt>Coffee</dt>
+        <dd> black hot drink</dd>
+        <dt>Milk</dt>
+        <dd> White cold drink</dd>
+    </dl>
+</html>
