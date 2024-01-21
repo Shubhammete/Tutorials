@@ -7,5 +7,32 @@
     <img src="instadsp.png"> <!-- this shows a broken img as file do not exist-->
     <img src="instadps.png" alt ="instadp"> <!-- this shows alternate text as file is not available-->
     <img src="img\shubh.png"> <!-- how to insert file from another folder-->
+    <!-- Captions -->
+    <figure>
+        <img src="" alt="">
+        <figcaption>
+            blah blah....
+        </figcaption>
+    </figure>
+
+    <!--Auto adjusting Image  provide different images and not same in srcset and done below-->
+    <img src="kriti.jpeg" alt="Kriti Sanon" height="400" width="300"
+        srcset="kriti.jpeg 1x,
+        kriti.jpeg 2x,
+        kriti.jpeg 3x"    
+    >
+
+    <!--Responsive image-->
+    <picture>
+        <!-- Source for devices with a minimum width of 600 pixels -->
+        <source media="(min-width: 600px)" srcset="image-large.jpg">
+    
+        <!-- Default source for devices without the specified condition -->
+        <source srcset="image-default.jpg">
+    
+        <!-- Fallback image for browsers that do not support the <picture> element -->
+        <img src="image-default.jpg" height="400" width="600" alt="Description of the image">
+    </picture>
+    
 </body>
 </html>
