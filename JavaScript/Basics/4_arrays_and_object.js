@@ -69,3 +69,26 @@ let f = {
   console.log(name0,age0,isMarried)
   
   const k = {...f,name0 :"Shubham",age:19}
+
+  // array methods
+
+  arr=[2,4,6,6,3,3,3,535,36,63]
+// map ->iterates all array
+arr.map((value,index,arr)=>{
+    console.log(value,index)
+  })
+  //filter -> return new array according to condition
+  let check = (val)=>{return val>60}
+  console.log(arr.filter(check))
+  
+  //reduces to one value 
+  let arr1=[9,4,6,7,7,4,3,2]
+  let add1 = (a,b) =>{
+    let sum = a+b
+    return sum
+    
+  }
+  console.log(arr1.reduce(add1))
+
+  //converts string to array
+  console.log(Array.from("dsfighierhg"))

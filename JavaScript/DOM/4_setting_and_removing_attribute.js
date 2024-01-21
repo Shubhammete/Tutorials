@@ -1,12 +1,17 @@
 //modifying attributes and classes
 
-li.setAttribute('class','class-items') // its sets attribute
+// its sets attribute
 // li.setAttribute('type','name') type -- class id tag   name = name of type predefined
-li.removeAttribute('class') // attribute removed
+li.setAttribute('class','class-items') 
+li.setAttribute('id','list')
+// attribute removed
+li.removeAttribute('class') 
 
-//same work 
+
+// add or remove name of class defined in stylesheet and not attribute
 li.classList.add('class-items')  // pass class name in it
 li.classList.remove('class-items')
+
 
 // <li id="myListItem" class="initial-class">List Item</li> predefined tag
 li.setAttribute('class', 'class-items')
@@ -20,11 +25,12 @@ li.classList.add('class-items')
 // classList.add adds a class to the existing classes
 // This method will add the class 'class-items' to the existing classes in the classList of the element. The element's class attribute will be updated
 li.classList.remove('class-items')
-// <li id="myListItem" class="initial-class">List Item</li>
+// <li id="myListItem" class="initial-class class-items">List Item</li>
 // This method will remove the class 'class-items' from the existing classes in the classList of the element. The element's class attribute will be updated 
 // classList.remove removes a class from the existing classes.
 
-
+// returns true if there exists such class
+revealcontent.classList.contains('reveal-button')
 
 // delete element
 li.remove()
