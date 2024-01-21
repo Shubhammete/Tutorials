@@ -1,0 +1,17 @@
+.one{
+    display: inline-block;
+    background-color: yellow;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.two{
+    display: inline-block;
+    background-color: violet;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}

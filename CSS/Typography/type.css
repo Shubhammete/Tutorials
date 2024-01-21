@@ -1,0 +1,6 @@
+.parent{
+    font-size: 2em;
+}
+.child{
+    font-size: 1em;   /*em is relative unit and depend on parent class*/
+}

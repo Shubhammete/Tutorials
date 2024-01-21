@@ -1,0 +1,22 @@
+.example{
+    color: red;
+}
+.example2{
+    background-color: yellow;
+}
+.example p{
+    color: black;  /*for nested elements we can show heirachy here this styple is applied only on p elements in example class*/
+}
+
+.example.example2{   
+    font-size: 50;
+}
+div h1,h2{          
+    color: cornflowerblue;
+}
+/*Here the style applied on h1 in div and for h2 it is applied to all h2 elements
+       so for this we have declare it like
+       div h1, div h2{          
+    color: cornflowerblue;
+    }
+*/

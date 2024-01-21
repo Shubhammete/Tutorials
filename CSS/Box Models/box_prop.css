@@ -1,0 +1,19 @@
+.class_padding{
+    padding: 0; /*Same on all sides*/
+    padding: 0 0; /*top & bottom, right & left*/
+    padding: 0 0 0; /*top, right & left, bottom*/
+    padding: 0 0 0 0; /*top, right, bottom, left*/
+
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.class_border{
+    border: 0px solid red;
+
+    border-width: 0px;
+    border-style: solid;
+    border-color: red;
+}

@@ -1,0 +1,65 @@
+.container {
+    width: 600px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 5px solid black;
+  }
+  p {
+    background: #CDCDCD;
+    padding: 10px;
+  }
+  img {
+  float: left; 
+    margin: 10px;
+  }
+  .clear {
+    clear: both; /* clears left and right floats */
+  }
+  .over{
+    height: 100px;
+    width: 300px;
+    overflow:scroll;
+  }
+
+
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container1{
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto;
+     overflow: hidden; /*overflow wraps the parent with float as it is collapsed to 0 by float 
+     so it now covers the element*/
+  }
+  .container2{
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .container3{
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto;
+      display: flow-root;
+  }
+  .float {
+    background: lightblue;
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+   float: left; /*If the float is removed both block will come up and down on each other 
+   floating all elements in div makes div size collapse to 0*/
+  }
+  
+  .float0  {
+    background: lightblue;
+    border: 1px solid white;
+    height: 60px;  
+    width: 60px;
+    padding: 10px;
+  }

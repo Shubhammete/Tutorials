@@ -1,0 +1,12 @@
+.color{
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 100px;
+    margin: 0 auto;
+}
+.color2{
+    display: inline-block;
+    background-color: bisque;
+    padding: 100px;
+    margin: auto;
+}

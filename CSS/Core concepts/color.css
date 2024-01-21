@@ -1,0 +1,8 @@
+.col{
+    outline-color: #003456;
+    background-color: rgba(234,45,21,0.5);
+    color: hsla(100, 45%, 75%,1)  /* the types of color defination */
+}
+*{
+    color:red; /*The * selector selects all elements*/
+}

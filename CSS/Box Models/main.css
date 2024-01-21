@@ -1,0 +1,12 @@
+.class{
+    display: inline-block;
+    color: aqua;
+    padding: 20px;
+    background-color: black;
+    font-size: large;
+}
+.imp{
+    font-size: 0;
+}/*This collapse all block and make it one and in class fs=large gives the letter a size
+   basically we are removing spaces
+   we ca do by making margin negative which is convinient*/
