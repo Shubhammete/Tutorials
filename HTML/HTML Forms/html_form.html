@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="shubham.html" method="get">
+        <label for="name" >Name
+        <input name="name" id="name" type="text" required placeholder="Your Name">
+        </label>
+        <br>
+        <br>
+        <label for="email">Email
+        <input name="email" id="email" type="email" placeholder="me@example.com">
+        </label>
+        <br>
+        <br>
+        <label for="password">Password
+        <input name="password" id="password" type="password" placeholder="*************">
+        </label>
+        <br>
+        <br>
+        <label for="search">Search
+        <input name="search" id="search" type="search" placeholder="Search here">
+        </label>
+        <br>
+        <br>
+        <label for="phone">Telephone
+        <input name="phone" id="phone" type="tel" value="+91">
+        </label>
+        <br>
+        <br>
+        <label for="text-area">Feed-back</label>
+        <br>
+        <textarea name="text-area" id="text-area" cols="30" rows="30" placeholder="Enter your feedback here"></textarea>
+        <br>
+        <br>
+        <label for="date">Date
+        <input name="date" id="date" type="date">
+        </label>
+        <br>
+        <br>
+        <label for="color">Color
+        <input name="color" id="color" type="color">
+        </label>
+        <br>
+        <br>
+        <label for="file">File
+        <input name="file" id="file" type="file" accept="image/*" multiple>
+        </label>
+        <br>
+        <br>
+        <label for="checkbox">Checkbox
+        <input name="checkbox" id="checkbox" type="checkbox" value="chec is checked" checked>
+        </label>
+        <br>
+        <br>
+        <label for="selection-list">Select one from below
+        <select id="selection-list" required>
+            <option disabled selected>Select</option>
+            <option>Op1</option>
+            <option>Op2</option>
+            <option>Op3</option>
+            <option>Op4</option>
+            <option>Op5</option>
+            <option>Op6</option>
+            <option>Op7</option>
+        </select>
+        </label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Select one from below</legend>
+            <input id="thischeck" name="checkboxlist" type="checkbox" value="A" checked>
+            <label for="thischeck">A</label>
+            <input id="orcheck" name="checkboxlist" type="checkbox" value="B">
+            <label for="orcheck">B</label>
+        </fieldset>
+        <br>
+        <br>    
+        <fieldset>
+            <legend>Select one from below</legend>
+            <input id="thischeck" name="checkboxlist" type="radio" value="A" checked>
+            <label for="thischeck">A</label>
+            <input id="orcheck" name="checkboxlist" type="radio" value="B">
+            <label for="orcheck">B</label>
+        </fieldset>
+        </select>
+        <br>
+        <br>
+            
+        <button type="submit">Sign up</button>
+    </form>
+</body>
+</html>
