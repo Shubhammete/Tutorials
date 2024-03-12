@@ -30,7 +30,7 @@ function moreValue(a,...b){
     function inner(){
       console.log("Inner")
     }
-    inner()  // as it has s
+    inner()  // as it has scope  of the parent so we can call it here
   }
   
   outer()  
