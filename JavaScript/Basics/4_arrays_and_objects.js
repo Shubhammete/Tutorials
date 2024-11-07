@@ -40,13 +40,16 @@ const messedarr = [1,2,3[4,5,6],7,[[8,9]]];
 const  fixedmessedarr = messedarr.flat(Infinity) // we can pass upto what nested we have to manage the array clears the nested array
 arr.includes(2) // returns true or false
 arr.indexOf(3);
+
 // .map creates new array
 arr.map((value,index,arr)=>{
   console.log(value,index,arr)
 })
+
 //filter
 let check = (val)=>{return val>300}
 const newarr = arr.filter(check)
+
 //or
 arr.filter((a)=>{return a > 300})
 // reduce method
@@ -78,3 +81,5 @@ let f = {
   console.log(name0,age0,isMarried)
   
   const k = {...f,name0 :"Shubham",age:19}  // creating new obj with prop o f but adding extra into it
+
+

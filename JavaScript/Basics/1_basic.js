@@ -12,7 +12,7 @@ console.log(a);  // ans == undefined
 var a = 12;  
 console.log(a);   // ans == 12
 // undefined == which exists but dont have any value 
-// not defined == which does not exists but dont have any value 
+// not defined == which does not exists and dont have any value 
 
 
 //reference and Primitives

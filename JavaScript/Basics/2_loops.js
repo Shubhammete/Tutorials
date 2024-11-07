@@ -12,7 +12,7 @@ if(false){
    
    //Loops
    //for
-   for(var i = 0;i <5;i++){
+   for(var i = 0;i<5;i++){
        console.log(i);
    }
    
@@ -21,18 +21,17 @@ if(false){
     console.log(a++);
    }
    
-   // forEach
+// forEach
 var ex = [1,2,3,4,5,6,7];
 ex.forEach(function(x){
   console.log(x+2); // adds 2 in each value
 })
-//for in
 
+//for in
 var obj = {
   name:"Shubham",
   age:19,
   city:"Indapur"
-
 }
 for(var x in obj){
   console.log(x);  //name

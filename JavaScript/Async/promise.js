@@ -20,9 +20,9 @@ let prom = ()=>{
         resolve("solved")
 })
 }
+// prom()
 
 // promise API
-
 let y1 = new Promise((resolve, reject) => {
     resolve("Promise 1")
   
